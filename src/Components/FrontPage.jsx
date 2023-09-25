@@ -1,4 +1,3 @@
-import FrontPageText from "./FrontPageText";
 import BackGroundVideo from "./hotel_-_1303 (Original).mp4";
 
 function FrontPage() {

@@ -4,10 +4,10 @@ import ImageWithHoverOverlay from "./ImageWithHoverOverlay";
 export default function SecondPage() {
   return (
     <>
-      <div className="h-screen bg-gray-400 flex flex-col justify-center items-center">
+      <div className="h-screen bg-gray-700 flex flex-col justify-center items-center">
         <div className="flex-1 text-center">
           <div className="border-t-2 border-b-2 border-gray-500 mt-5 pt-5 font-">
-            <h1 className="text-xl text-purple-800">
+            <h1 className="text-xl text-white">
               Welcome To
               <p className="text-3xl p-5 font-bold">Zen Hotel</p>
             </h1>

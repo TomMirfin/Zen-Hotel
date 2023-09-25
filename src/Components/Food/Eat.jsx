@@ -4,10 +4,10 @@ import ImageWithHoverOverlay from "../ImageWithHoverOverlay";
 export default function Eat() {
   return (
     <>
-      <div className="h-screen bg-gray-500 flex flex-col justify-center items-center">
+      <div className="h-screen bg-gray-800 flex flex-col justify-center items-center">
         <div className="flex-1 text-center">
           <div className="border-t-2 border-b-2 border-gray-500 mt-5 pt-5 font-">
-            <h1 className="text-6xl text-white">EAT</h1>
+            <h1 className="text-6xl text-white mb-4">EAT</h1>
           </div>
         </div>
         <div className="text-xl mr-40 ml-40 mt-20 text-white">
