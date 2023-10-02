@@ -20,7 +20,7 @@ function Nav() {
       {NavBarItems.map((item) => (
         <h1 key={item.title}>
           <Link
-            to={item.path}
+            to={`/${item.path}`} // Use absolute paths with leading '/'
             className="hover:text-cyan-400 transition-all duration-200"
           >
             {item.title}

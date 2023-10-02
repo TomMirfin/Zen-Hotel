@@ -1,9 +1,11 @@
 import IMAGES from "../../assets/Images/Images";
 import ImageWithHoverOverlay from "../ImageWithHoverOverlay";
+import Nav from "../NavBar/Nav";
 
 export default function Eat() {
   return (
     <>
+      <Nav />
       <div className="h-screen bg-gray-800 flex flex-col justify-center items-center">
         <div className="flex-1 text-center">
           <div className="border-t-2 border-b-2 border-gray-500 mt-5 pt-5 font-">

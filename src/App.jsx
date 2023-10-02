@@ -14,13 +14,9 @@ function App() {
     <div>
       <Nav />
       <FrontPage />
-      <SecondPage />
 
-      <Eat />
       <Spa />
       <Weddings />
-      <AllRooms />
-      <BookingPage />
     </div>
   );
 }
