@@ -51,3 +51,26 @@ The third section is rendered using the same component as the second but lists a
 Create the rooms
 Model menu for each Restaurant
 Create pages for the facilities
+
+
+# 02/10/23
+## Updates
+
+A lot has changed since my last commit 
+
+- The page items/rooms are now rendered dynamically from a js file while holds an array of objects containing all of the information for each room
+- Nav bar has been redesigned to include react router & all Routes are now defined in the main.jsx file.
+- Paththing is completed from check availability -> All Rooms -> Selected Room This i has been done using the id: of the room and filtered as so:
+```
+  const { id } = useParams();
+  const room = RoomData.find((room) => room.id === parseInt(id));
+```
+It was also my first time implementing usePararms in React
+
+### To Do
+-Complete Selected Rooms page carousel and displaying the selected room.
+-Complete the booking page to allow the user to complete a booking
+-Spa Pages
+-Restaurant menu modoles 
+
+
