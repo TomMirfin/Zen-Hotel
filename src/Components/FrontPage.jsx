@@ -1,3 +1,5 @@
+import Eat from "./Food/Eat";
+import SecondPage from "./SecondPage";
 import BackGroundVideo from "./hotel_-_1303 (Original).mp4";
 
 function FrontPage() {
@@ -14,6 +16,10 @@ function FrontPage() {
       {/* <div className="absolute top-0 right-10 w-full h-full flex justify-center items-center">
         <FrontPageText />
       </div> */}
+      <div>
+        <SecondPage />
+        <Eat />
+      </div>
     </section>
   );
 }
