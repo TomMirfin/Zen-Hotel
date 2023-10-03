@@ -5,15 +5,27 @@ import RoomData from "./RoomData";
 
 const RoomCarousel = () => {
   return (
-    <div className="">
-      <Carousel dynamicHeight={false} autoPlay thumbWidth={80} thumbHeight={20}>
-        {RoomData.map((room) => (
-          <div key={room.id}>
-            <img className="h-50 rounded-xl" src={room.IMG} alt={room.name} />
-          </div>
-        ))}
-      </Carousel>
-    </div>
+    <Carousel
+      axis="vertical"
+      className="h-2/3 w-screen"
+      autoPlay
+      showThumbs={false}
+      dynamicHeight={false}
+      infiniteLoop={true}
+    >
+      {RoomData.map((room) => (
+        <div
+          className="h-screen flex items-center justify-center"
+          key={room.id}
+        >
+          <img
+            src={room.IMG}
+            alt={room.name}
+            className="ml-2 h-1/3 w-auto max-w-full object-cover"
+          />
+        </div>
+      ))}
+    </Carousel>
   );
 };
 

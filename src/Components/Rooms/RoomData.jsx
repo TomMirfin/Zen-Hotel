@@ -7,6 +7,8 @@ const RoomData = [
     sleeps: "1",
     Facilities: ["Desk", "Free Wifi", "MiniBar", "Gym Access", "Room Service"],
     Price: "£100",
+    desciption:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis officia quia harum reiciendis, repellendus nemo, et velit molestiae aspernatur adipisci, eaque enim iure expedita nesciunt illum! Voluptas officia tempore asperiores.",
     IMG: IMAGES.Single,
   },
   {
@@ -15,6 +17,8 @@ const RoomData = [
     sleeps: "2",
     Facilities: ["Desk", "Free Wifi", "MiniBar", "Gym Access", "Room Service"],
     Price: "£200",
+    desciption:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis officia quia harum reiciendis, repellendus nemo, et velit molestiae aspernatur adipisci, eaque enim iure expedita nesciunt illum! Voluptas officia tempore asperiores.",
     IMG: IMAGES.Double,
   },
   {
@@ -23,6 +27,8 @@ const RoomData = [
     sleeps: "4",
     Facilities: ["Desk", "Free Wifi", "MiniBar", "Gym Access", "Room Service"],
     Price: "£400",
+    desciption:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis officia quia harum reiciendis, repellendus nemo, et velit molestiae aspernatur adipisci, eaque enim iure expedita nesciunt illum! Voluptas officia tempore asperiores.",
     IMG: IMAGES.Family,
   },
   {
@@ -31,6 +37,8 @@ const RoomData = [
     sleeps: "2",
     Facilities: ["Desk", "Free Wifi", "MiniBar", "Gym Access", "Room Service"],
     Price: "£300",
+    desciption:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis officia quia harum reiciendis, repellendus nemo, et velit molestiae aspernatur adipisci, eaque enim iure expedita nesciunt illum! Voluptas officia tempore asperiores.",
     IMG: IMAGES.HoneyMoon,
   },
   {
@@ -39,6 +47,8 @@ const RoomData = [
     sleeps: "2",
     Facilities: ["Desk", "Free Wifi", "MiniBar", "Gym Access", "Room Service"],
     Price: "£250",
+    desciption:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis officia quia harum reiciendis, repellendus nemo, et velit molestiae aspernatur adipisci, eaque enim iure expedita nesciunt illum! Voluptas officia tempore asperiores.",
     IMG: IMAGES.Luxury,
   },
 ];
