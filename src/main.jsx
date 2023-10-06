@@ -6,7 +6,7 @@ import React from "react";
 import Eat from "./Components/Food/Eat";
 import AllRooms from "./Components/Rooms/AllRooms";
 import RoomPage from "./Components/Rooms/SelectedRoomPage";
-import BookingPage from "./Components/BookingPage";
+import BookingPage from "./Components/Rooms/BookingPage";
 import SelectedRoomPage from "./Components/Rooms/SelectedRoomPage";
 import { element } from "prop-types";
 
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     element: <RoomPage />,
   },
   {
-    path: "/Rooms/:id/Booking",
+    path: "/BookingPage/:id/",
     element: <BookingPage />,
   },
   {

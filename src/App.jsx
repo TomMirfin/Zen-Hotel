@@ -7,7 +7,7 @@ import Nav from "./Components/NavBar/Nav";
 import Spa from "./Components/Facilities/Spa";
 import Weddings from "./Components/Facilities/Weddings";
 import AllRooms from "./Components/Rooms/AllRooms";
-import BookingPage from "./Components/BookingPage";
+import BookingPage from "./Components/Rooms/BookingPage";
 
 function App() {
   return (

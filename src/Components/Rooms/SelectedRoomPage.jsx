@@ -1,7 +1,6 @@
 import RoomData from "./RoomData";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import RoomCarousel from "./RoomCarousel";
-import { Carousel } from "react-responsive-carousel";
 
 function RoomPage() {
   const { id } = useParams();
@@ -26,10 +25,12 @@ function RoomPage() {
             <div className="text-xl pt-5">Description:</div>
             <div className="text-slate-400">{room.desciption}</div>
             <div className="flex justify-end  p-4">
-              <button className="bg-cyan-400 rounded-lg p-2 hover:bg-cyan-600 hover:shadow-xl  flex justify-center items-center">
-                {" "}
+              <Link
+                to={`/BookingPage/${room.id}`}
+                className="bg-cyan-400 rounded-lg p-2 hover:bg-cyan-600 hover:shadow-xl  flex justify-center items-center"
+              >
                 Finalise Booking
-              </button>
+              </Link>
             </div>
           </div>
         </div>
